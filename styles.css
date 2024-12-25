@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Waiting+for+the+Sunrise&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background: #222222;
+}
+.contener{
+    max-width:  940px;
+    margin: auto;
+    padding:  10px;
+}
+header{
+    background-image: url(images/a.png);
+    background-size: cover;
+    min-height: 540px;
+    text-align: center;
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.logo_nav{
+    width: 89px;
+    height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+ul{
+    max-width: 291px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    color: #999999;
+}
+ul li {
+    padding-left: 30px;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+ul li a:hover{
+   color:  #00D6B4;
+}
+.buttun_header{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttun_header h2{
+    max-width: 465px;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+.buttun_header  button{
+    width: 137px;
+    height: 39px;
+    background-color: #ffffff00;
+    border: 1px solid #00D6B4;
+    color: #00D6B4;
+    margin-top: 30px;
+}
+.buttun_header  button:hover{
+    background-color: #00D6B4;
+    color: #FFFFFF;
+    border: 1px solid white;
+}   
+main{
+    min-height: 802.95px;
+    flex-wrap: wrap;
+    display: flex(2);
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.h3_main{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;    
+}
+
+footer{
+    text-align: center;
+    margin-top: 137px;
+    margin-bottom: 36px;
+}
+footer h2{
+    color: white;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+footer p{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C2C2C2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    header{
+        background-size: cover;
+        background-position: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo_nav{
+    margin:30px ;
+    }
+ 
+}
+
+@media screen and (max-width:455px) {
+    header{
+        background-size: cover;
+        background-position: center;
+
+    }
+    ul li a{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    main{
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:455px){
+    main{
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
